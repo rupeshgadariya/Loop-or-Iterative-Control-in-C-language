@@ -1,0 +1,17 @@
+// Write a program to print the first 10 natural numbers. 
+
+#include<stdio.h>
+#include<conio.h>
+
+    void main()
+{
+        int x=1;
+        while (x<=10)
+        {
+            printf("\n%lu",x);
+            x++;
+        }
+        
+        
+    getch();
+}
