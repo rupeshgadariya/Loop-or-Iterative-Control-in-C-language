@@ -1,0 +1,17 @@
+// Write a program to print squares of the first 10 natural numbers 
+
+#include<stdio.h>
+#include<conio.h>
+
+    void main()
+{
+        int a=1;
+        while (a<=10)
+        {
+           printf("\n%lu",a*a);
+           a++;
+        }
+        
+        
+    getch();
+}
