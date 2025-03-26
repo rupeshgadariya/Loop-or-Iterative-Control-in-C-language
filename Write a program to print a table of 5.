@@ -1,0 +1,17 @@
+// Write a program to print a table of 5.
+
+#include<stdio.h>
+#include<conio.h>
+
+    void main()
+{
+        int i=1;
+        while (i<=10)
+        {
+            printf("\n%lu",5*i);
+            i++;
+        }
+        
+        
+    getch();
+}
