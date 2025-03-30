@@ -1,0 +1,19 @@
+// Write a program to print MySirG N times on the screen 
+
+#include<stdio.h>
+#include<conio.h>
+
+    void main()
+{
+        int n;
+        printf("How many to print \"MySirG\"= ");
+        scanf("%d",&n);
+        while (n>0)
+        {
+           printf("\nMySirG");
+           n--;
+        }
+        
+        
+    getch();
+}
