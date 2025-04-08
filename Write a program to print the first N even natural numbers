@@ -1,0 +1,17 @@
+// Write a program to print the first N even natural numbers 
+ 
+  #include<stdio.h>
+#include<conio.h>
+
+    void main()
+{
+        int x=1,i;
+        printf("Enter a number ");
+        scanf("%d",&i);
+        while (x<=i*2)
+  {  if (x%2==0)
+        printf("\n%lu",x);
+        x++;
+  }   
+    getch();
+}
