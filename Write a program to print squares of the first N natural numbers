@@ -1,0 +1,19 @@
+// Write a program to print squares of the first N natural numbers 
+
+#include<stdio.h>
+#include<conio.h>
+
+    void main()
+{
+        int a=1,x;
+        printf("Enter a number ");
+        scanf("%d",&x);
+        while (a<=x)
+        {
+           printf("\n%lu",a*a);
+           a++;
+        }
+        
+        
+    getch();
+}
