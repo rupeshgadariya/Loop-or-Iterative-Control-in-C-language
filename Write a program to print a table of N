@@ -1,0 +1,19 @@
+// Write a program to print a table of N.
+
+#include<stdio.h>
+#include<conio.h>
+
+    void main()
+{
+        int i=1,x;
+        printf("Enter a number ");
+        scanf("%d",&x);
+        while (i<=10)
+        {
+            printf("\n%lu",x*i);
+            i++;
+        }
+        
+        
+    getch();
+}
