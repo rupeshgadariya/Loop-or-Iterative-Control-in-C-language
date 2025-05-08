@@ -1,0 +1,19 @@
+// Write a program to calculate sum of first N even natural numbers   
+ 
+ #include<stdio.h>
+ #include<conio.h>
+ 
+    void main()
+ {
+         int x=1,i,sum=0;
+        printf("Enter a number ");
+        scanf("%d",&i);
+        while (x<=i*2)
+  {  if (x%2==0)
+        sum = sum + x;
+        x++;
+  } 
+        printf("Sum of first %d even natural numbers = %lu",i,sum);
+        
+    getch();
+ }
