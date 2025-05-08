@@ -1,0 +1,19 @@
+// Write a program to calculate sum of first N odd natural numbers 
+
+#include<stdio.h>
+#include<conio.h>
+
+    void main()
+{
+          int x,i=1,sum=0;
+        printf("Enter a number ");
+        scanf("%d",&x);
+        while (i<=2*x)
+  {  if (i%2!=0)
+            sum = sum + i;
+        i++;
+  }
+        printf("Sum of first %d odd natural numbers = %lu",x,sum);
+        
+    getch();
+} 
