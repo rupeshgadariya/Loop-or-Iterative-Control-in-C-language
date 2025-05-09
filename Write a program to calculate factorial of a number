@@ -1,0 +1,19 @@
+// Write a program to calculate factorial of a number 
+
+#include<stdio.h>
+#include<conio.h>
+
+    void main()
+{
+        int x,fac=1;
+        printf("Enter a number ");
+        scanf("%d",&x);
+        while (x>=1)
+        {   
+            fac = fac*x;
+            x--;
+        }
+        printf("Factorial of given number = %d ",fac);
+  
+    getch();
+}
